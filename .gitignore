@@ -1,0 +1,5 @@
+.terraform*
+*.tfplan
+*.tfvars
+terraform.tfstate*
+README.md
