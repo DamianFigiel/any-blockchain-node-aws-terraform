@@ -103,7 +103,7 @@ resource "aws_ecs_task_definition" "ethereum_node" {
       cpu       = 0
       memory    = var.consensus_client_memory
       essential = true
-      command   = [
+      command = [
         "lighthouse",
         "bn",
         "--network=mainnet",

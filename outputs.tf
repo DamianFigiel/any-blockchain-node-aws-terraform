@@ -8,7 +8,7 @@ output "instance_id" {
   value       = aws_instance.node.id
 }
 
-output "instance_dns" {
+output "instance_dns_to_ssh" {
   description = "DNS of the EC2 instance"
-  value       = aws_instance.node.public_dns
+  value       = "ec2-user@${aws_instance.node.public_dns}"
 }
