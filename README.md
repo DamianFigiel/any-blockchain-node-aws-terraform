@@ -19,6 +19,24 @@ Before you begin, ensure you have:
 - SSH key pair for EC2 access
 - Terraform installed (>= 1.2.0)
 
+### AWS Credentials Setup
+
+Configure your AWS credentials using one of these methods:
+
+1. Environment variables (recommended for development):
+   ```bash
+   export AWS_ACCESS_KEY_ID=your-access-key
+   export AWS_SECRET_ACCESS_KEY=your-secret-access-key
+   export AWS_REGION=your-preferred-region
+   ```
+
+2. Or using AWS CLI:
+   ```bash
+   aws configure
+   ```
+
+⚠️ **Security Note:** Never commit AWS credentials to version control. Consider using AWS Vault or similar tools for credential management in production environments.
+
 ## Important Considerations
 
 ### Storage Requirements
