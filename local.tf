@@ -11,8 +11,8 @@ locals {
 
 locals {
   task_definitions = {
-    "ethereum"  = try(aws_ecs_task_definition.ethereum_node[0].arn, null)
+    "ethereum" = try(aws_ecs_task_definition.ethereum_node[0].arn, null)
     "polkadot" = try(aws_ecs_task_definition.substrate_node[0].arn, null)
-    "enjin"     = try(aws_ecs_task_definition.substrate_node[0].arn, null)
+    "enjin"    = try(aws_ecs_task_definition.substrate_node[0].arn, null)
   }
 }
