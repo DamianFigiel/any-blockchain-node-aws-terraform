@@ -156,7 +156,7 @@ If you encounter any issues or have questions:
 
 ## Additional Resources
 
-- [Medium Article](coming-soon) - Detailed setup guide and architecture explanation
+- [Medium Article](https://figiel.medium.com/deploy-any-blockchain-node-on-aws-in-1-minute-13d390ba343a) - Detailed setup guide and architecture explanation
 - [LinkedIn Post](coming-soon) - Project announcement and community updates
 
 ## Maintainers
